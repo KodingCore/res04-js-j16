@@ -1,0 +1,38 @@
+/*
+
+Votre <header> doit faire 100vw de largeur et 10vh de hauteur minimum.
+
+Votre <main> doit faire 100vw de largeur et 85vh de hauteur minimum.
+
+Votre <footer> doit faire 100vw de largeur et 5vh de hauteur minimum.
+
+*/
+html body {
+  margin: 0;
+  padding: 0;
+}
+html body header {
+  min-width: 100vw;
+  min-height: 10vh;
+  border-bottom: solid 1px black;
+  display: flex;
+  align-items: center;
+}
+html body header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+html body header nav ul li {
+  margin-left: 50px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+html body main {
+  min-width: 100vw;
+  min-height: 85vh;
+}
+html body footer {
+  min-width: 100vw;
+  min-height: 5vh;
+}/*# sourceMappingURL=style.css.map */
